@@ -79,7 +79,7 @@ def calculate_total_cost():
                      c * (2 * costo_x_val + costo_y_val + 3 * costo_z_val)
         
         # Display total cost
-        label_total_cost.config(text=f"El costo total de producir {a} muebles A, {b} muebles B y {c} muebles C es: {total_cost:.2f} pesos")
+        label_total_cost.config(text=f"COSTO TOTAL: {total_cost:.2f} DOP")
     except ValueError:
         messagebox.showerror("Error", "Por favor ingrese valores válidos para las cantidades.")
 
